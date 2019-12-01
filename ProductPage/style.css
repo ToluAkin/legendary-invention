@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #eee !important;
+}
+
+.navbar {
+    background-color: #eee !important;
+}
+
+a {
+    text-decoration: none;
+    color: black !important; 
+    font-size: 15px;
+}
+
+.logo img {
+    height: 32px;
+}
+
+#hero {
+    margin-top: 100px;
+}
+
+#hero input[type="email"] {
+    padding: 5px;
+}
+
+#hero input[type="submit"], .btn {
+    margin: 15px 0;
+    border: 0;
+    background-color: #f1c40f !important;
+}
+
+.btn {
+    padding: 0 20px;
+    height: 40px;
+    text-transform: uppercase;
+    border: 3px black solid;
+    border-radius: 2px;
+}
+
+.grid {
+    display: flex;
+}
+
+.fa-fire, .fa-truck, .fa-battery-full  {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    color: darkorange;
+}
+
+#how-it-works {
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    list-style: none;
+}
+
+ol li {
+    padding: 5px 0;
+}
+
+footer {
+    margin-top: 30px;
+    background-color: #ddd;
+    padding: 20px;
+}
+
+footer ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer ul li {
+    padding: 0 10px;
+}
+
+footer span {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.9em;
+    color: #444;
+}
